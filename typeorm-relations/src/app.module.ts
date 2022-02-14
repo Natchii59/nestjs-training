@@ -9,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       type: 'mysql',
       username: 'devuser',
       database: 'nestjs_training',
-      entities: ['dist/src/**/*.entity.js'],
+      entities: ['dist/**/*.entity.js'],
       synchronize: true,
     }),
   ],
