@@ -3,7 +3,6 @@ import { MysqlConnectionOptions } from 'typeorm/driver/mysql/MysqlConnectionOpti
 const ormconfig: MysqlConnectionOptions = {
   type: 'mysql',
   username: 'devuser',
-  password: 'devpassword',
   database: 'nestjs_training',
   entities: ['dist/src/**/*.entity.js'],
   synchronize: true,
